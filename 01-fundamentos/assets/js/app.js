@@ -1,6 +1,5 @@
 // console.log('Hola Mundo desde un archivo JS');
 
-// var b = 11
 // const c = 12
 
 // let a = 10

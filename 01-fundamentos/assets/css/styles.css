@@ -1,0 +1,7 @@
+:root {
+  --font-base: "system-ui";
+}
+
+body {
+  font-family: var(--font-base);
+}
