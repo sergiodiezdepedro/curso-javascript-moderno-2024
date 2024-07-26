@@ -1,0 +1,27 @@
+body {
+    background-color: hsl(122, 25%, 45%);
+}
+.header {
+    padding-block: 1rem;
+    margin-bottom: 24px;
+    text-align: center;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 100%, 100%)
+}
+
+.header .h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.humano {
+    margin-bottom: 24px;
+} 
+
+.carta {
+    width: 150px;
+}
+
+.carta:not(:first-of-type) {
+    margin-left: -75px;
+}
