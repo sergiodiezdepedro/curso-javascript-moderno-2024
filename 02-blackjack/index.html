@@ -17,9 +17,9 @@
     </header>
     <div class="row">
       <div class="col text-center">
-        <button class="btn btn-danger">Nuevo Juego</button>
-        <button class="btn btn-primary">Pedir Carta</button>
-        <button class="btn btn-primary">Plantarse</button>
+        <button id ="btnNuevaPartida" class="btn btn-danger">Nuevo Juego</button>
+        <button id ="btnPedir" class="btn btn-primary">Pedir Carta</button>
+        <button id ="btnPlantarse" class="btn btn-primary">Plantarse</button>
       </div>
     </div>
     <div class="row container humano">
@@ -28,10 +28,10 @@
           Jugador 1:&nbsp;<small class="font-weight-bold">&nbsp;0</small>
         </h2>
         <div id="jugador-cartas">
-          <img
+          <!-- <img
             class="carta"
             src="assets/cartas/2C.png"
-            alt="Carta Jugador Humano" />
+            alt="Carta Jugador Humano" /> -->
         </div>
       </div>
     </div>
@@ -48,6 +48,7 @@
         </div>
       </div>
     </div>
+    <script src="assets/js/underscore-min.js"></script>
     <script src="assets/js/juego.js"></script>
   </body>
 </html>

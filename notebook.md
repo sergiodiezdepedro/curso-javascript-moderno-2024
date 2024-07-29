@@ -23,4 +23,8 @@ En el menú de opciones seleccionar Node.js y se abre la depuración muy similar
 
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
+## Librería Underscore.js
+
+[Underscore](https://underscorejs.org/) is a JavaScript library that provides a whole mess of useful functional programming helpers.
+
 
