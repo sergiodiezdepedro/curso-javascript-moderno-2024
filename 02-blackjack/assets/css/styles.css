@@ -1,5 +1,6 @@
 body {
     background-color: hsl(122, 25%, 45%);
+    overflow-x: hidden;
 }
 .header {
     padding-block: 1rem;
