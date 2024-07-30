@@ -25,3 +25,7 @@ body {
 .carta:not(:first-of-type) {
     margin-left: -75px;
 }
+
+button[disabled] {
+    cursor: not-allowed;
+}
