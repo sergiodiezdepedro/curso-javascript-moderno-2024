@@ -27,4 +27,8 @@ En el menú de opciones seleccionar Node.js y se abre la depuración muy similar
 
 [Underscore](https://underscorejs.org/) is a JavaScript library that provides a whole mess of useful functional programming helpers.
 
+## Herramienta online para minificar código JavaScript
+
+[Link](https://www.toptal.com/developers/javascript-minifier)
+
 
