@@ -1,4 +1,10 @@
-import { crearDeck, crearCarta, pedirCarta, valorCarta } from "./usecases";
+import {
+  crearDeck,
+  crearCarta,
+  determinarGanador,
+  pedirCarta,
+  valorCarta,
+} from "./usecases";
 // import { crearDeck  as crearNuevoDeck } from "./usecases/crear-baraja";
 
 // * 2C = Two of Clubs (Tréboles)
@@ -41,22 +47,6 @@ const acumularPuntos = (carta, turno) => {
   return puntosJugadores[turno];
 };
 
-const determinarGanador = () => {
-  const [puntosMinimos, puntosOrdenador] = puntosJugadores;
-
-  setTimeout(() => {
-    if (puntosOrdenador === puntosMinimos) {
-      alert("Empate, pero el Ordenador gana en este caso");
-    } else if (puntosMinimos > 21) {
-      alert("Te pasaste. Lo siento, perdiste");
-    } else if (puntosOrdenador > 21) {
-      alert("Ganaste. El Ordenador se pasó");
-    } else {
-      alert("El Ordenador gana");
-    }
-  }, 1000);
-};
-
 // ? Turno del Ordenador
 const turnoOrdenador = (puntosMinimos) => {
   let puntosOrdenador = 0;
@@ -67,7 +57,7 @@ const turnoOrdenador = (puntosMinimos) => {
     crearCarta(carta, puntosJugadores.length - 1);
   } while (puntosOrdenador < puntosMinimos && puntosMinimos <= 21);
 
-  determinarGanador();
+  determinarGanador(puntosJugadores);
 };
 
 // ? Eventos
