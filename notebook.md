@@ -31,4 +31,10 @@ En el menú de opciones seleccionar Node.js y se abre la depuración muy similar
 
 [Link](https://www.toptal.com/developers/javascript-minifier)
 
+## Funciones generadoras
+
+[Enlace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
+
+
+
 
