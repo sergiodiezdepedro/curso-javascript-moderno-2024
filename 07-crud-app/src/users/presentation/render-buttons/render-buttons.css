@@ -1,0 +1,10 @@
+button:first-of-type,
+span {
+  margin-right: 16px;
+}
+
+span {
+    color: hsl(60, 100%, 50%);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
