@@ -1,0 +1,70 @@
+.modal-container.hide-modal {
+  display: none;
+}
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.5);
+}
+.modal-dialog span {
+  margin-bottom: 16px;
+  color: hsl(0, 0%, 0%);
+  font-size: 1.2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  box-shadow: 10px 10px 43px 5px rgba(120, 119, 120, 1);
+}
+
+.modal-dialog div:first-child {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+form div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] ~ label {
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+  font-size: 16px;
+  color: hsl(0, 0%, 100%);
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+  color: hsl(0, 0%, 100%);
+}
+
+.modal-dialog div:first-child input:not(:last-child) {
+  margin-bottom: 10px;
+}
